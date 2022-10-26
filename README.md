@@ -16,6 +16,16 @@ Install package dependencies:
 pip install -r requirements.txt
 '''
 
+## Configuration
+
+[Obtain an API Key] https://www.alphavantage.co/support/#api-key. from ALPHAVANTAGE
+
+Then create a local ".env" file and provide the key like this:
+
+'''sh 
+
+ALPHAVANTAGE_API_KEY="_________"
+'''
 
 ## Usage
 
