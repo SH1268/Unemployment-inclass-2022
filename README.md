@@ -23,7 +23,6 @@ pip install -r requirements.txt
 Then create a local ".env" file and provide the key like this:
 
 '''sh 
-
 ALPHAVANTAGE_API_KEY="_________"
 '''
 
@@ -40,5 +39,5 @@ Run the unemployment report:
 python app/unemployment.py
 
 # or pass env var from command line:
-ALPHAVANTAGE_API_KEY="______" python app/unemployment.py
+ALPHAVANTAGE_API_KEY="_____" python app/unemployment.py
 '''
