@@ -6,7 +6,10 @@ import json
 from pprint import pprint
 
 import requests
+from dotenv import load_dotenv # <--- ADDITION
 from plotly.express import line
+
+load_dotenv() # <--- ADDITION
 
 API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
