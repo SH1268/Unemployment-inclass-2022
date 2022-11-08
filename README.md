@@ -29,18 +29,20 @@ ALPHAVANTAGE_API_KEY="_________"
 
 Run the example script:
 
-python app/my_file.py
+python -m app.my_file.
 
 '''
 
 Run the unemployment report:
 
-python app/unemployment.py
+python -m app.unemployment
 
 Run stocks report:
 
 ```
 python app/stocks.py
+
+python -m app.stocks
 ```
 
 ### or pass env var from command line:

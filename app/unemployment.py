@@ -6,12 +6,9 @@ import json
 from pprint import pprint
 
 import requests
-from dotenv import load_dotenv # <--- ADDITION
 from plotly.express import line
 
-load_dotenv() # <--- ADDITION
-
-API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
+from app.Alpha import API_KEY
 
 request_url = f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={API_KEY}"
 
