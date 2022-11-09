@@ -29,7 +29,7 @@ ALPHAVANTAGE_API_KEY="_________"
 
 Run the example script:
 
-python -m app.my_file.
+python -m app.my_file
 
 '''
 
@@ -40,8 +40,6 @@ python -m app.unemployment
 Run stocks report:
 
 ```
-python app/stocks.py
-
 python -m app.stocks
 ```
 
@@ -49,3 +47,10 @@ python -m app.stocks
 ALPHAVANTAGE_API_KEY="_____" python app/unemployment.py
 
 
+## Testing
+
+Run tests:
+
+```sh 
+pytest
+```
