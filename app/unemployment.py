@@ -39,7 +39,6 @@ if __name__ == "__main__":
     print("UNEMPLOYMENT REPORT...")
 
     data = fetch_unemployment_data()
-=======
 
 def format_pct(my_number):
     """
@@ -80,7 +79,7 @@ if __name__ == "__main__":
     # What is the most recent unemployment rate? And the corresponding date?
     # Display the unemployment rate using a percent sign.
 
-=======
+
 
     # Challenge A
     #
