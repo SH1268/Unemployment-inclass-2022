@@ -18,8 +18,6 @@ SENDER_EMAIL_ADDRESS="you@example.com"
 SENDGRID_API_KEY="__________"
 ```
 
-
-@@ -43,22 +47,39 @@ python app/my_script.py
 Run the unemployment report:
 
 ```sh
