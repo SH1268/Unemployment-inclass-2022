@@ -5,7 +5,7 @@ print("STOCKS REPORT...")
 import os
 from pandas import read_csv
 
-from app.Alpha import API_KEY
+from .alpha import API_KEY
 
 symbol = input("Please input a crypto symbol (default: 'NFLX'): ") or "NFLX"
 print("SYMBOL:", symbol)
