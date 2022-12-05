@@ -40,19 +40,6 @@ if __name__ == "__main__":
 
     data = fetch_unemployment_data()
 
-    print("UNEMPLOYMENT REPORT...")
-
-
-    data = fetch_unemployment_data()
-
-
-    # Challenge A
-    #
-    # What is the most recent unemployment rate? And the corresponding date?
-    # Display the unemployment rate using a percent sign.
-
-
-
     # Challenge A
     #
     # What is the most recent unemployment rate? And the corresponding date?
